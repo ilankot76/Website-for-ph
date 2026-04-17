@@ -1,13 +1,27 @@
 #login-container {
+    width: 320px;
+    padding: 30px 25px;
+
     display: flex;
-    flex-direction: column; /* This stacks children vertically */
-    width: 250px;           /* Limits the width so they aren't too wide */
-    gap: 5px;              /* Adds a nice gap between the boxes */
+    flex-direction: column;
+    gap: 14px;
+
+    background-color: rgba(0, 0, 0, 0.85);
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
 .login-input {
     padding: 8px;
     font-size: 16px;
+    width: 94%;
 }
 
 
@@ -27,17 +41,14 @@ body {
     align-items: center;
 }
 
-.general_button{
-    padding: 10px;
-    font-size: 16px;
-    
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
 
-
-.general_button:hover {
-    background-color: #0056b3;
+#background {
+    display: flex;
+    flex-direction: column; /* This stacks children vertically */
+    width: 350px;           /* Limits the width so they aren't too wide */
+    gap: 5px;            /* Adds a nice gap between the boxes */
+    z-index: -1; /* Ensure the background is behind other content */
+     background-color : hsl(0, 0%, 0%,0.89); 
+     left: 50px;
+     transform: translateX(-50px);
 }

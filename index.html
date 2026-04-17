@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="buttons.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="buttons.css">
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
@@ -10,21 +11,34 @@
 <body>
 
 
+
 <div id="login-container">
 
+  <p id="background">
+
+    
+
+    <h1>Login</h1>
     <div id="input-container">
 
-    <label for="username">Username:</label><br>
-    <input type="text" class="login-input" id="username" placeholder="Username"><br>
+        <form action="profiles.html">
 
-    <label for="password">Password:</label><br>
-    <input type="password" class="login-input" id="password" placeholder="Password"><br>
+        <label for="username">:</label>
+        <input type="text" class="login-input" id="username" placeholder="Username"><br>
+
+        <label for="password">:</label>
+        <input type="password" class="login-input" id="password" placeholder="Password"><br>
 
     </div>
 
-    <button class="general_button" type="submit">Login</button><br>
+    <button class="general_button" type="submit" href="profiles.html" >Login</button><br>
+    
+   <div id="or">OR</div> <br>
 
-    <button type="button" href="signup.html">Sign Up</button><br>
+    <button id="signupbutton" type="submit" href="signup.html">Sign Up</button><br>
+    </form>
+
+    </p>
 
 </div>
 
