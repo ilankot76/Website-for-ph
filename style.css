@@ -1,0 +1,11 @@
+#login-container {
+    display: flex;
+    flex-direction: column; /* This stacks children vertically */
+    width: 250px;           /* Limits the width so they aren't too wide */
+    gap: 15px;              /* Adds a nice gap between the boxes */
+}
+
+.login-input {
+    padding: 8px;
+    font-size: 16px;
+}
