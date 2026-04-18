@@ -1,33 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="buttons.css">
-    <link rel="stylesheet" href="signup.css">
+<head> 
+    <link rel="stylesheet" href="../cssfolder/signup.css">
+<link rel="stylesheet" href="../cssfolder/buttons.css">
+   
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
 
-    <div id="signup-container">
+    <div id="login-container">
 
         <h1>Sign Up</h1>
         <form action="signupreq">
 
-        <label for="username"></label>
+            <div id="input-container">
+
         <input type="text" class="login-input" id="username" placeholder="Username"><br>
-
-        <label for="email"></label>
         <input type="email" class="login-input" id="email" placeholder="Email"><br>
-
-
-        <label for="password"></label>
         <input type="password" class="login-input" id="password" placeholder="Password"><br>
-
-        <label for="confirm-password"></label>
         <input type="password" class="login-input" id="confirm-password" placeholder="Confirm Password"><br>
 
-        <button class="general_button" type="submit">Sign Up</button>
+        </div>
+
+    <button id="regester" type="button" onclick="window.location.href='index.html'">
+            Sign Up
+        </button>
+
     </form>
     </div>
 
